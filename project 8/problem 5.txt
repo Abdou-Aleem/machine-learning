@@ -1,0 +1,26 @@
+Given an integer, , and  space-separated integers as input, create a tuple, , of those  integers. Then compute and print the result of 
+
+
+
+
+
+
+input()
+l = map(int, input().strip().split(" "))
+print(hash(tuple(l)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
